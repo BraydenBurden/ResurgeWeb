@@ -58,7 +58,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3001/send-contact", {
+      const response = await axios.post("https://resurgeweb.com/send-contact", {
         fullName,
         email,
         phone,

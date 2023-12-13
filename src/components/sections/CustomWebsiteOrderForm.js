@@ -191,7 +191,7 @@ const CustomWebsiteOrderForm = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/send-order",
+        "https://resurgeweb.com/send-order",
         formData,
         {
           headers: {

@@ -294,7 +294,6 @@ const CustomWebsiteOrderForm = () => {
   ];
 
   const mobileView = useMediaQuery("(max-width:600px)");
-  const packageOrientation = useMediaQuery("(max-width: 750px");
 
   return errors !== "noErrors" ? (
     <Stack padding={!mobileView ? "0 5rem" : ""} id="orderForm">

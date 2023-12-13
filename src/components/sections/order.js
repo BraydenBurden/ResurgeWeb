@@ -6,7 +6,6 @@ import {
   List,
   ListItem,
   ListItemIcon,
-  ListItemText,
   Stack,
   Typography,
   useMediaQuery,

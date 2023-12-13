@@ -6,9 +6,13 @@ const multer = require("multer");
 const fs = require("fs");
 
 const app = express();
-const port = 3001;
+const port = 8080;
 
 app.use(bodyParser.json());
+
+app.get("/", function (req, res) {
+  res, sendFile(path.join(_dirname, "build", "index.html"));
+});
 
 const transporter = nodemailer.createTransport({
   host: "smtp-mail.outlook.com",

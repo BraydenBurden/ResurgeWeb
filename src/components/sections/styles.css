@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap');
+
+p {
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+
+#resurge {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+#contactLink:hover {
+    color: #3ead64 !important;
+}
+
+.switchLabel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+/* .testModal div {
+    background-color: #2d2d2d !important;
+} */
+
+.comingSoon {
+    -webkit-box-shadow: inset 0px 0px 50px 12px #000000; 
+    box-shadow: inset 0px 0px 50px 12px #000000;
+}
+
+.listItemsOverflow {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    /* text-wrap: nowrap; */
+    text-overflow: ellipsis;
+    max-width: 70vw;
+}
+
+.plan:hover {
+    background-color: #30834c !important;
+    color: #000000;
+}
+
+.scrollable::-webkit-scrollbar {
+    height: 5px; /* Set the height of the scrollbar */
+  }
+/* 
+.plan:hover .moreInfo {
+    color: white !important;
+} */

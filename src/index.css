@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-light {
+  @import 'theme-light.less';
+}
+
+.app-dark {
+  @import 'theme-dark.less'; 
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scroll bar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #30834c; /* Set the color of the thumb (the draggable part) */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 5px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #30834c;
+}
+
+/* For Internet Explorer and Edge */
+::-ms-scrollbar {
+  width: 5px;
+}
+
+::-ms-scrollbar-thumb {
+  background-color: #30834c;
+}

@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.MuiTypography-root{
+    font-family: 'Noto Sans Linear B', sans-serif !important;
+}
+.MuiTypography-h6 {
+  font-size: 1.5rem;
+}
+
+.MuiTypography-h4, .MuiTypography-h6{
+  font-family: 'Bebas Neue', sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
